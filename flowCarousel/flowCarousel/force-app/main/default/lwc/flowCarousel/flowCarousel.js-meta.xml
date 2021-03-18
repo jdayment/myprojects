@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>51.0</apiVersion>
+    <isExposed>true</isExposed>
+    <targets>
+        <target>lightning__FlowScreen</target>
+        <target>lightning__AppPage</target>
+        <target>lightning__HomePage</target>
+        <target>lightning__RecordPage</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightning__FlowScreen,lightning__AppPage,lightning__HomePage,lightning__RecordPage">
+         <property name="firstImageURL" label="1st Image URL" type="String"></property>
+         <property name="firstHeader" label="1st Header" type="String"></property>
+         <property name="firstDescription" label="1st Description" type="String"></property>
+         <property name="firstAltText" label="1st Alternate Text" type="String"></property>
+
+         <property name="secondImageURL" label="2nd Image URL" type="String"></property>
+         <property name="secondHeader" label="2nd Header" type="String"></property>
+         <property name="secondDescription" label="2nd Descriptions" type="String"></property>
+         <property name="secondAltText" label="2nd Alternate Text" type="String"></property>
+
+         <property name="thirdImageURL" label="3rd Image URL" type="String"></property>
+         <property name="thirdHeader" label="3rd Header" type="String"></property>
+         <property name="thirdDescription" label="3rd Description" type="String"></property>
+         <property name="thirdAltText" label="3rd Alternate Text" type="String"></property>
+
+         <property name="fourthImageURL" label="4th Image URL" type="String"></property>
+         <property name="fourthHeader" label="4th Header" type="String"></property>
+         <property name="fourthDescription" label="4th Description" type="String"></property>
+         <property name="fourthAltText" label="4th Alternate Text" type="String"></property>
+
+         <property name="fifthImageURL" label= "5th Image URL" type="String"></property>
+         <property name="fifthHeader" label="5th Header" type="String"></property>
+         <property name="fifthDescription" label="5th Description" type="String"></property>
+         <property name="fifthAltText" label="5th Alternate Text" type="String"></property>
+         <property name="carouselTitle" label="Carousel Title" type="String"></property>
+        </targetConfig>
+         
+    </targetConfigs>
+</LightningComponentBundle>
